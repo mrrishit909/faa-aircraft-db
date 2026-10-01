@@ -1,0 +1,70 @@
+[
+  {
+    "question": "Look up a transponder address seen by an ADS-B receiver",
+    "before_ms": 0.026,
+    "before_scans": [
+      "Index Scan"
+    ],
+    "after_ms": 0.028,
+    "after_scans": [
+      "Index Scan"
+    ]
+  },
+  {
+    "question": "Valid registrations expiring in the next 90 days",
+    "before_ms": 12.371,
+    "before_scans": [
+      "Seq Scan"
+    ],
+    "after_ms": 0.033,
+    "after_scans": [
+      "Index Only Scan"
+    ]
+  },
+  {
+    "question": "Aircraft based in Tampa, Florida",
+    "before_ms": 9.692,
+    "before_scans": [
+      "Seq Scan"
+    ],
+    "after_ms": 0.498,
+    "after_scans": [
+      "Index Only Scan"
+    ]
+  },
+  {
+    "question": "Models whose name contains 172",
+    "before_ms": 12.893,
+    "before_scans": [
+      "Seq Scan"
+    ],
+    "after_ms": 0.079,
+    "after_scans": [
+      "Bitmap Heap Scan",
+      "Bitmap Index Scan"
+    ]
+  },
+  {
+    "question": "Every registered Cessna 172 (join through the model code)",
+    "before_ms": 13.785,
+    "before_scans": [
+      "Seq Scan"
+    ],
+    "after_ms": 8.0,
+    "after_scans": [
+      "Bitmap Heap Scan",
+      "Bitmap Index Scan"
+    ]
+  },
+  {
+    "question": "Registration history of one N-number",
+    "before_ms": 7.34,
+    "before_scans": [
+      "Seq Scan"
+    ],
+    "after_ms": 0.024,
+    "after_scans": [
+      "Index Only Scan"
+    ]
+  }
+]

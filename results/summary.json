@@ -1,0 +1,14 @@
+{
+  "rows": {
+    "aircraft": 317166,
+    "aircraft_model": 94091,
+    "engine_model": 4752,
+    "deregistration": 383530
+  },
+  "load_seconds": 14.8,
+  "database_size": "227 MB",
+  "backup": {
+    "dump_mb": 21.1,
+    "restored_counts_match": true
+  }
+}

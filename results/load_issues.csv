@@ -1,0 +1,8 @@
+table,column,action,rows
+deregistration,status_code,not in data dictionary: set to NULL,1484
+aircraft,year_mfr,outside 1903-2026: set to NULL,150
+deregistration,year_mfr,outside 1903-2026: set to NULL,146
+deregistration,model_code,not in aircraft model reference: set to NULL,42
+aircraft,certification,class not in data dictionary: set to NULL,7
+aircraft,aircraft_type,differs from the model reference: kept as registered,4
+engine_model,engine_type,blank engine type: set to 9 (Unknown),1

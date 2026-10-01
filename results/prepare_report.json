@@ -1,0 +1,18 @@
+{
+  "MASTER": {
+    "rows": 317166,
+    "rows_repaired_stray_comma": 0
+  },
+  "ACFTREF": {
+    "rows": 94091,
+    "rows_repaired_stray_comma": 0
+  },
+  "ENGINE": {
+    "rows": 4752,
+    "rows_repaired_stray_comma": 0
+  },
+  "DEREG": {
+    "rows": 383530,
+    "rows_repaired_stray_comma": 1
+  }
+}

@@ -1,0 +1,12 @@
+aircraft_type,aircraft,pct,median_year_built,year_unknown
+Fixed wing single engine,221515,69.8,1976,39346
+Fixed wing multi engine,49509,15.6,2000,7647
+Rotorcraft,28827,9.1,2005,16994
+Balloon,5271,1.7,2004,1372
+Glider,4879,1.5,1981,1095
+Hybrid lift,3700,1.2,2024,3680
+Powered parachute,1914,0.6,2004,399
+Weight-shift-control,1058,0.3,2006,215
+Gyroplane,425,0.1,2018,112
+Blimp/dirigible,49,0.0,1997,28
+Other,19,0.0,2021,12
